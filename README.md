@@ -37,24 +37,24 @@ It is no secret that there are security issues in cloud computing that IT profes
     - Exposed application services due to misconfigurations
     - Hijacking of user accounts because of poor encryption and identity management
 
-## Cloud application best practices for implementing effective security measures
-### Identity access management
+### Cloud application best practices for implementing effective security measures
+#### Identity access management
 Application security doesn’t exist in a silo, so it’s important to integrate secure measures like identity access management (IAM) with broader enterprise security processes. IAM ensures every user is authenticated and can only access authorized data and application functionality. A holistic approach to IAM can protect cloud applications and improve the overall security posture of an organization.
 
-### Data privacy & compliance
+#### Data privacy & compliance
 Along with application security, data privacy, and compliance are crucial for protecting end-users of cloud native applications. For example, compliance with GDPR requires careful vetting of open source components, which are frequently used to speed up cloud native application development. In addition, data encryption, access controls, and other cloud security controls can also help protect the privacy of application users.
 
-### Threat monitoring
+#### Threat monitoring
 After applications are deployed to the cloud, it’s crucial to continuously monitor for cyber threats in real-time. Since the application security threat landscape is constantly evolving, leveraging threat intelligence data is crucial for staying ahead of malicious actors. This enables development teams to find and remediate cloud application security threats before they impact end-users.
 
-### Encryption
+#### Encryption
   - Implementing encryption in the right areas optimizes application performance while protecting sensitive data. In general, the three types of data encryption to consider are encryption in transit, encryption at rest, and encryption in use.
 
     - Encryption in transit protects data as it’s transmitted between cloud systems or to end-users. This includes encrypting communication between two services, whether they’re internal or external, so that data cannot be intercepted by unauthorized third parties.
     - Encryption at rest ensures data cannot be read by unauthorized users while it is stored in the cloud. This can include multiple layers of encryption at the hardware, file, and database levels to fully protect sensitive application data from data breaches.
     - Encryption in use is aimed at protecting data that is currently being processed, which is often the most vulnerable data state. Keeping data in use safe involves limiting access beforehand using IAM, role based access control, digital rights protection etc.
 
-### Automated security testing
+#### Automated security testing
 A key part of DevSecOps is integrating automated security testing directly into the development process. By automatically scanning for vulnerabilities throughout the continuous integration and continuous delivery (CI/CD) process, development teams can ensure every new software build is secure before deploying to the cloud. This includes not only the code and open source libraries that applications rely on, but the container images and infrastructure configurations they’re using for cloud deployments.
 
 Implementing developer-friendly security scanning tooling with existing developer workflows can enable the “shifting left” of cloud application security. Shifting left testing can dramatically reduce the cost of vulnerability detection and remediation, while also ensuring developers can continue pushing code quickly. 
