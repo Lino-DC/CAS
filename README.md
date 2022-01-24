@@ -6,7 +6,7 @@ Cloud Application Security
 
 ## Table of Contents
 - [What is cloud application security](#what-is-cloud-application-security)
-- [Who excatly owns cloud security](#Who-excatly-owns-cloud-security)
+- [Who exactly owns cloud security](#Who-exactly-owns-cloud-security)
 - [Top cloud application security issues](#Top-cloud-application-security-issues)
 - [Cloud application best practices for implementing effective security measures](#Cloud-application-best-practices-for-implementing-effective-security-measures)
     * [Identity access management](#Identity-access-management)
@@ -21,7 +21,7 @@ Cloud application security is a series of defined policies, processes, controls,
 
 Cloud application security measures are usually implemented during software development and after applications are deployed. This comprehensive approach is the best way to prevent security incidents from negatively impacting the organization’s reputation and revenue.
 
-### Who excatly owns cloud security
+### Who exactly owns cloud security
 As cloud native application development grows in popularity, it’s becoming more important for security, development, and operations teams to share responsibility for cloud application security.
 
 The SaaS vendor is responsible for securing the application’s infrastructure, as well as its APIs. This means that they are responsible for the security of the servers, networks, and code that makes the application a product for customers.
