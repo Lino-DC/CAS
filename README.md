@@ -30,12 +30,14 @@ This evolving approach to application security, where developers are taking on a
 Even with DevSecOps adoption growing, ownership over cloud application security is likely to evolve over the coming years.
 
 ### Top cloud application security issues
-It is no secret that there are security issues in cloud computing that IT professionals must be aware of. Cloud application security issues are cyber threats that a cloud-based application is exposed to. These threats can include:
-    - Unauthorized access to application functionality or data
-    - Distributed denial of service (DDos) attacks related to poorly managed resources
-    - Data leakage from insecure APIs or other infrastructure endpoints
-    - Exposed application services due to misconfigurations
-    - Hijacking of user accounts because of poor encryption and identity management
+It is no secret that there are security issues in cloud computing that IT professionals must be aware of. Cloud application security issues are cyber threats that a cloud-based application is exposed to. 
+
+These threats can include:
+- Unauthorized access to application functionality or data
+- Distributed denial of service (DDos) attacks related to poorly managed resources
+- Data leakage from insecure APIs or other infrastructure endpoints
+- Exposed application services due to misconfigurations
+- Hijacking of user accounts because of poor encryption and identity management
 
 ### Cloud application best practices for implementing effective security measures
 #### Identity access management
